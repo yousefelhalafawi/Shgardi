@@ -1,0 +1,16 @@
+<div class="form-container">
+  <form (ngSubmit)="onSubmit()" class="needs-validation" novalidate>
+    <div class="form-group">
+      <label for="email">Email/Username:</label>
+      <input type="text" id="email" name="email" [(ngModel)]="email" class="form-control" >
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" [(ngModel)]="password" class="form-control" >
+    </div>
+    <div *ngIf="error"  class="alert alert-danger">
+      <p class="m-0">{{error}}</p>
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+  </form>
+</div>

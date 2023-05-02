@@ -1,0 +1,21 @@
+span{
+  color: green;
+}
+/* .card:hover {
+  background-color: green;
+}
+
+.card:hover .card-body {
+  color: white;
+} */
+.card:hover {
+  background-color: green;
+}
+
+.card:hover i {
+  color: white;
+}
+
+.card:hover p {
+  color: white;
+}
