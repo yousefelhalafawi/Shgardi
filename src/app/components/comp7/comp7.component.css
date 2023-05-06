@@ -1,0 +1,8 @@
+span{
+  color: green;
+}
+
+.card:hover .top {
+  background-color: #28a745 !important;
+}
+

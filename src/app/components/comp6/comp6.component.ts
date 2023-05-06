@@ -19,10 +19,10 @@ export class Comp6Component {
 
   ngOnInit(): void {
   }
+    // const emailBody = `Name: ${this.name}\nAge: ${this.age}\nEmail: ${this.email}\nAddress: ${this.address}\nCover Letter: ${this.coverLetter}`;
+    // window.open(`mailto:yousefelhlfawi@gmail.com?subject=New Job Application&body=${encodeURIComponent(emailBody)}`);
 
   onSubmit(): void {
-    const emailBody = `Name: ${this.name}\nAge: ${this.age}\nEmail: ${this.email}\nAddress: ${this.address}\nCover Letter: ${this.coverLetter}`;
-    // window.open(`mailto:yousefelhlfawi@gmail.com?subject=New Job Application&body=${encodeURIComponent(emailBody)}`);
 
     // Show success message
     Swal.fire({
